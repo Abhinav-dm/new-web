@@ -1,0 +1,81 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.main-site>.bg-image {
+    background: url('/images/homepage-hero-bg-img.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+     background-position: center;
+
+}
+
+.color-white {
+    color: white;
+}
+
+.nav-bar {
+    width: 60%;
+    margin: auto;
+    padding: 40px;
+}
+
+.nyc {
+    font-size: 25px;
+    letter-spacing: 8px;
+    color: white;
+}
+
+.nav-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-style {
+    list-style: none;
+    display: flex;
+    color: white;
+    margin-top: 7px;
+    gap: 50px;
+}
+
+.navigation {
+    display: flex;
+}
+
+.btn-style {
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px;
+    font-size: 15px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    margin-left: 35px;
+}
+.btn-style:hover{
+    background-color: white !important;
+    color: black;
+}
+.logo-style{
+   height: 32px;
+}
+.text-style-food{
+    color: white;
+    text-align: center;
+    font-size: 17px;
+    letter-spacing: 2px;
+    margin-top: 80px !important;
+    font-weight: 700; 
+}
+.text-style-eat{
+    color: white;
+    text-align: center;
+    font-size: 56px;
+    margin-top: 50px !important;
+    font-weight: 700;
+    width: 66%;
+    margin: auto;
+  }
