@@ -12,6 +12,25 @@
 
 }
 
+.bg-image1 {
+    background-image: url('/images/signeture-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    background-position: bottom;
+}
+
+.bg-image2 {
+    background-image: url('/images/testimonail-section-bg-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    background-position: center;
+    margin-top: 60px;
+    opacity: 0.7;
+    height: 480px;
+}
+
 .color-white {
     color: white;
 }
@@ -56,7 +75,8 @@
     font-weight: bold;
     margin-left: 35px;
 }
-.btn-style1{
+
+.btn-style1 {
     background-color: black;
     border: 1px solid white;
     color: white;
@@ -65,18 +85,33 @@
     font-size: 15px;
     letter-spacing: 2px;
     font-weight: bold;
-    margin-left: 35px;
+    /* margin-left: 35px; */
     width: 213px;
 }
-
+.btn-style2{
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+    text-transform: uppercase;
+    padding: 16px;
+    font-size: 15px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    margin-left: 35px;
+}
 
 .btn-style:hover {
     background-color: white !important;
     color: black;
 }
+
 .btn-style1:hover {
     background-color: white !important;
     color: black;
+}
+.btn-style2:hover{
+    background-color: black;
+    color: white;
 }
 
 .logo-style {
@@ -152,6 +187,27 @@
     margin-top: -90px;
 }
 
+.body2 {
+    width: 70%;
+    padding-top: 70px;
+    margin: auto;
+}
+
+.row4 {
+    width: 60%;
+    padding-top: 100px;
+    margin: auto;
+    display: flex;
+    gap: 72px;
+}
+
+.row5 {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    gap: 64px;
+}
+
 .row {
     display: flex;
     gap: 140px;
@@ -161,11 +217,19 @@
     display: flex;
     margin-top: 19px;
 }
-.row2{
+
+.row2 {
     display: flex;
     margin-top: 19px;
     gap: 135px;
 }
+
+.row3 {
+    display: flex;
+    margin-top: 47px;
+    gap: 45px;
+}
+
 .column {
     width: 40%;
 }
@@ -191,6 +255,21 @@
     width: 40%;
 }
 
+.column6 {
+    width: 34%;
+}
+
+.column7 {
+    width: 34%;
+}
+
+.column9 {
+    width: 45%;
+}
+
+/* .column8{
+    width: 22%;
+} */
 .discover {
     font-size: 43px;
 }
@@ -250,7 +329,8 @@
 }
 
 .hr-margin {
-    margin-top: 25px;
+    margin-top: 20px;
+    margin-bottom: 70px;
 }
 
 .laoreet {
@@ -259,14 +339,158 @@
     margin-top: 10px;
     line-height: 25px;
 }
-.color-white{
+
+.color-white {
     color: white;
 }
-.color-gray{
+
+.color-gray {
     color: gray;
 }
-.dotted-b{
+
+.dotted-b {
     border-bottom: 2px dotted white;
     padding-bottom: 12px;
     margin-top: 30px;
+}
+
+.homemade {
+    color: white;
+    letter-spacing: 3px;
+    font-size: 15px;
+}
+
+.Signature {
+    color: white;
+    margin-top: 25px;
+    font-size: 40px;
+}
+
+.elit-p {
+    margin-top: 33px;
+    color: white;
+    line-height: 23px;
+}
+
+.w-85 {
+    width: 85%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 56px;
+    gap: 63px;
+}
+
+.width-33 {
+    width: 30%;
+}
+
+.img-width {
+    width: 500px;
+}
+
+.meet {
+    font-size: 32px;
+}
+
+.rutrum {
+    margin-top: 17px;
+    color: gray;
+    padding-right: 29px;
+}
+
+.chef-2 {
+    margin-top: 80px;
+}
+
+.img-chef2 {
+    width: 442px;
+}
+
+.img-chef1 {
+    width: 363px;
+}
+
+.img-chef3 {
+    width: 442px;
+    margin-top: 60px;
+}
+
+.Testimonial {
+    color: white;
+    text-align: center;
+}
+
+.say {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.testi-padding {
+    padding-top: 100px;
+}
+
+.logo-width {
+    width: 30%;
+}
+
+.p-risus {
+    text-align: center;
+    color: white;
+    padding: 50px;
+    line-height: 25px;
+}
+
+.card {
+    background-color: black;
+    border-radius: 15px;
+}
+
+.avtar-women {
+    border: 4px solid yellow;
+    border-radius: 45px;
+    position: relative;
+    left: 143px;
+    margin-top: -1px;
+    top: 29px;
+}
+
+.emma {
+    color: white;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.div-m {
+    padding-top: 200px;
+}
+
+.Reservation {
+    text-align: center;
+    font-size: 52px;
+}
+
+.sit-p {
+    text-align: center;
+    color: gray;
+    line-height: 22px;
+    margin-top: 25px;
+}
+
+.btn-reservation {
+    width: 15%;
+    margin: auto;
+    margin-top: 45px;
+}
+.Telephone{
+    margin-top: 30px;
+    text-align: center;
+}
+.number{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 30px;
+    font-weight: 700;
 }
