@@ -8,7 +8,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 800px;
+    /* height: 685px; */
 
 }
 
@@ -88,7 +88,8 @@
     /* margin-left: 35px; */
     width: 213px;
 }
-.btn-style2{
+
+.btn-style2 {
     background-color: white;
     border: 2px solid black;
     color: black;
@@ -103,15 +104,18 @@
 .btn-style:hover {
     background-color: white !important;
     color: black;
+    cursor: pointer;
 }
 
 .btn-style1:hover {
     background-color: white !important;
     color: black;
 }
-.btn-style2:hover{
+
+.btn-style2:hover {
     background-color: black;
     color: white;
+    cursor: pointer;
 }
 
 .logo-style {
@@ -162,7 +166,7 @@
     display: flex;
     fill: white;
     position: relative;
-    left: 42%;
+    left: 44%;
     margin-top: 30px;
 }
 
@@ -198,36 +202,37 @@
     padding-top: 100px;
     margin: auto;
     display: flex;
-    gap: 72px;
+    justify-content: space-between;
 }
 
 .row5 {
     width: 70%;
     margin: auto;
     display: flex;
-    gap: 64px;
+    justify-content: space-between;
 }
 
 .row {
     display: flex;
-    gap: 140px;
+    justify-content: space-between;
 }
 
 .row1 {
     display: flex;
     margin-top: 19px;
+    justify-content: space-between;
 }
 
 .row2 {
     display: flex;
     margin-top: 19px;
-    gap: 135px;
+    justify-content: space-between;
 }
 
 .row3 {
     display: flex;
     margin-top: 47px;
-    gap: 45px;
+    justify-content: space-between;
 }
 
 .column {
@@ -235,15 +240,15 @@
 }
 
 .column1 {
-    width: 30%;
+    width: 38%;
 }
 
 .column2 {
-    width: 30%;
+    width: 24%;
 }
 
 .column3 {
-    width: 30%;
+    width: 38%;
 
 }
 
@@ -256,11 +261,11 @@
 }
 
 .column6 {
-    width: 34%;
+    width: 38%;
 }
 
 .column7 {
-    width: 34%;
+    width: 38%;
 }
 
 .column9 {
@@ -271,7 +276,7 @@
     width: 22%;
 } */
 .discover {
-    font-size: 43px;
+    font-size: 55px;
 }
 
 .nibh {
@@ -318,14 +323,14 @@
     padding-top: 100px;
     font-size: 13px;
     letter-spacing: 3px;
-    margin-right: 125px;
+    text-align: center;
     font-size: 18px;
 }
 
 .Relax {
     color: white;
     font-size: 41px;
-    margin-left: 47px;
+    text-align: center;
 }
 
 .hr-margin {
@@ -404,7 +409,7 @@
 }
 
 .img-chef2 {
-    width: 442px;
+    width: 440px;
 }
 
 .img-chef1 {
@@ -419,6 +424,7 @@
 .Testimonial {
     color: white;
     text-align: center;
+    font-size: 19px;
 }
 
 .say {
@@ -484,13 +490,115 @@
     margin: auto;
     margin-top: 45px;
 }
-.Telephone{
+
+.Telephone {
     margin-top: 30px;
     text-align: center;
 }
-.number{
+
+.number {
     text-align: center;
     font-size: 30px;
     margin-top: 30px;
     font-weight: 700;
+}
+
+.footer {
+    background-color: black;
+    margin-top: 100px;
+    padding-bottom: 40px;
+}
+
+.footer-row {
+    width: 70%;
+    margin: auto;
+    padding-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 60px;
+}
+
+.footer-column {
+    width: 22%;
+}
+
+.footer-sit {
+    color: white;
+    line-height: 25px;
+    margin-top: 16px;
+}
+
+.icon-style {
+    display: flex;
+    gap: 30px;
+}
+
+.icon-img {
+    width: 24px;
+    margin-top: 10px;
+}
+
+.Location {
+    color: white;
+    font-size: 28px;
+}
+
+.newyork {
+    color: white;
+    line-height: 30px;
+    margin-top: 16px;
+}
+
+.location-flex {
+    display: flex;
+}
+
+.directions {
+    color: white;
+    margin-top: 13px;
+    margin-left: 11px;
+}
+
+.footer-list-style {
+    list-style: none;
+    margin-top: 16px;
+    color: white;
+}
+
+.li-margin {
+    margin-top: 8px;
+}
+
+.sunday {
+    line-height: 25px;
+    color: white;
+    margin-left: 13px;
+    margin-top: 7px;
+}
+
+.fa-clock {
+    margin-top: 16px;
+    display: flex;
+}
+
+.footer-btn {
+    margin-top: 30px;
+}
+.row-footer-bottam{
+    width: 70%;
+    margin: auto;
+    padding-top: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+.Copyright{
+    color: white;
+    font-size: 18px;
+}
+.Deli{
+    color: white;
+    font-size: 18px;
+}
+.border-footer{
+    border-top: 1px solid white;
 }
