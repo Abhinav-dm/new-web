@@ -1,14 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,800;0,900;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:ital,wght@0,800;0,900;1,800&display=swap');
+
 * {
     margin: 0px;
     padding: 0px;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
 }
 
 .main-site>.bg-image {
     background: url('/images/homepage-hero-bg-img.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
-    /* height: 685px; */
+    background-position: top;
+    height: 100%;
 
 }
 
@@ -45,6 +52,13 @@
     padding-top: 40px;
 }
 
+.containers{
+    width: 50%;
+    margin: auto;
+    margin-top: 60px;
+    position: relative;
+}
+
 .svg-icon {
     display: none;
 }
@@ -66,6 +80,7 @@
     color: white;
     margin-top: 7px;
     gap: 50px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .navigation {
@@ -78,10 +93,11 @@
     color: white;
     text-transform: uppercase;
     padding: 10px;
-    font-size: 15px;
-    letter-spacing: 2px;
+    font-size: 13px;
+    letter-spacing: 3px;
     font-weight: bold;
     margin-left: 35px;
+    font-family: 'Open Sans', sans-serif;
 }
 .btn-style1 {
     background-color: black;
@@ -89,11 +105,11 @@
     color: white;
     text-transform: uppercase;
     padding: 13px;
-    font-size: 15px;
+    font-size: 12px;
     letter-spacing: 2px;
     font-weight: bold;
-    /* margin-left: 35px; */
     width: 213px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .btn-style2 {
@@ -132,28 +148,28 @@
 .text-style-food {
     color: white;
     text-align: center;
-    font-size: 17px;
-    letter-spacing: 2px;
-    margin-top: 80px !important;
+    font-size: 13px;
+    letter-spacing: 3px;
+    margin-top: 45px !important;
     font-weight: 700;
+    text-transform: uppercase;
 }
 
 .text-style-eat {
     color: white;
     text-align: center;
-    font-size: 56px;
-    margin-top: 50px !important;
+    font-size: 70px;
+    margin-top: 20px !important;
     font-weight: 700;
-    width: 66%;
-    margin: auto;
+    
 }
 
 .massa {
     text-align: center;
     color: white;
-    font-size: 15px;
-    font-weight: 700;
-    margin-top: 50px;
+    font-size: 16px;
+    margin-top: 30px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .border-left {
@@ -161,7 +177,16 @@
     left: 50%;
 
 }
+.elementor-background-overlay{
 
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-color: black;
+    opacity: .3;
+}
 .span {
     border-left: 2px solid white;
     height: 100px;
@@ -173,7 +198,7 @@
     display: flex;
     fill: white;
     position: relative;
-    left: 44%;
+    left: 41%;
     margin-top: 30px;
 }
 
@@ -184,6 +209,7 @@
     font-size: 13px;
     letter-spacing: 3px;
     text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .body {
@@ -218,9 +244,6 @@
     display: flex;
     justify-content: space-between;
 }
-.cake{
-    width: 100%;
-}
 
 .row {
     display: flex;
@@ -246,19 +269,19 @@
 }
 
 .column {
-    width: 40%;
+    width: 45%;
 }
 
 .column1 {
-    width: 38%;
+    width: 33%;
 }
 
 .column2 {
-    width: 24%;
+    width: 30%;
 }
 
 .column3 {
-    width: 38%;
+    width: 33%;
 
 }
 
@@ -290,10 +313,12 @@
 }
 
 .nibh {
-    color: gray;
+    color: #7a7a7a;
     line-height: 27px;
     margin-top: 12px;
-    font-size: 15px
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    
 }
 
 .img-good {
@@ -313,15 +338,18 @@
 }
 
 .hand-crafted {
-    color: gray;
+    color: #7a7a7a;
     margin-top: 5px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
 }
 
 .hand-crafted1 {
-    color: gray;
+    color: #7a7a7a;
     margin-top: 5px;
     line-height: 22px;
-    font-size: 20px;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .black-bg {
@@ -358,14 +386,22 @@
     text-align: center;
     margin-top: 10px;
     line-height: 25px;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
 }
 
-.color-white {
+.color-whitee {
     color: white;
+    letter-spacing: 4px;
+    font-size: 12px;
+    text-transform: uppercase;
 }
 
 .color-gray {
-    color: gray;
+    color: #7a7a7a;
+    margin-top: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
 }
 
 .dotted-b {
@@ -408,16 +444,21 @@
 
 .img-width {
     width: 100%;
-}
+} 
 
+.good-vibes{
+    width: 100%;
+}
 .meet {
     font-size: 40px;
 }
 
 .rutrum {
     margin-top: 17px;
-    color: gray;
+    color: #7a7a7a;
     padding-right: 29px;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .chef-2 {
@@ -440,12 +481,12 @@
 .Testimonial {
     color: white;
     text-align: center;
-    font-size: 19px;
+    font-size: 14px;
 }
 
 .say {
     color: white;
-    font-size: 30px;
+    font-size: 48px;
     text-align: center;
     margin-top: 20px;
 }
@@ -463,12 +504,16 @@
     color: white;
     line-height: 25px;
     margin-bottom: 15px;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .card {
     background-color: black;
     border-radius: 15px;
-    padding: 25px;
+    padding-left: 25px;
+    padding-top: 60px;
+    padding-right: 25px;
 }
 
 .avtar-women {
@@ -482,6 +527,9 @@
     color: white;
     text-align: center;
     padding-bottom: 40px;
+    font-size: 16px;
+    letter-spacing: 3px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .div-m {
@@ -490,14 +538,16 @@
 
 .Reservation {
     text-align: center;
-    font-size: 52px;
+    font-size: 47px;
 }
 
 .sit-p {
     text-align: center;
-    color: gray;
+    color: #7a7a7a;
     line-height: 22px;
     margin-top: 25px;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .btn-reservation {
@@ -508,13 +558,16 @@
 .Telephone {
     margin-top: 30px;
     text-align: center;
+    letter-spacing: 4px;
+    font-size: 13px;
 }
 
 .number {
     text-align: center;
-    font-size: 30px;
+    font-size: 48px;
     margin-top: 30px;
     font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .footer {
@@ -540,6 +593,8 @@
     color: white;
     line-height: 25px;
     margin-top: 16px;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .icon-style {
@@ -565,6 +620,8 @@
     color: white;
     line-height: 30px;
     margin-top: 16px;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .location-flex {
@@ -581,6 +638,8 @@
     list-style: none;
     margin-top: 16px;
     color: white;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .li-margin {
@@ -592,6 +651,8 @@
     color: white;
     margin-left: 13px;
     margin-top: 7px;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .fa-clock {
@@ -613,12 +674,14 @@
 
 .Copyright {
     color: white;
-    font-size: 18px;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .Deli {
     color: white;
-    font-size: 18px;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .border-footer {
@@ -694,7 +757,7 @@
         font-size: 50px;
     }
     .nibh {
-        color: gray;
+        color: #7a7a7a;
         line-height: 27px;
         margin-top: 12px;
         font-size: 22px
@@ -872,7 +935,12 @@
         display: flex;
         justify-content: space-between;
     }
-    
+    .nav-bar {
+        width: 90%;
+        padding-top: 40px;
+        margin: auto;
+    }
+
 }
 @media (max-width:1024px){
     .row5 {
@@ -993,6 +1061,9 @@
         position: relative;
         left: 20%;
         margin-top: 30px;
+    }
+    .cake{
+        width: 100%;
     }
     
 }
