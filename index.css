@@ -53,10 +53,11 @@ body{
 }
 
 .containers{
-    width: 50%;
+    width: 80%;
     margin: auto;
     margin-top: 60px;
     position: relative;
+    max-width: 920px;
 }
 
 .svg-icon {
@@ -1050,7 +1051,7 @@ body{
     .text-style-eat {
         color: white;
         text-align: center;
-        font-size: 40px;
+        font-size: 34px;
         margin-top: 50px !important;
         font-weight: 700;
         margin: auto;
@@ -1065,5 +1066,11 @@ body{
     .cake{
         width: 100%;
     }
-    
+    .massa {
+        text-align: center;
+        color: white;
+        font-size: 13px;
+        margin-top: 30px;
+        font-family: 'Open Sans', sans-serif;
+    }
 }
